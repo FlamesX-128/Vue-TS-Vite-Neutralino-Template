@@ -1,0 +1,55 @@
+{
+  "applicationId": "js.neutralino.sample",
+  "defaultMode": "window",
+  "port": 0,
+  "url": "/dist/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "logging": {
+    "enabled": true,
+    "writeToLogFile": true
+  },
+  "nativeBlockList": [],
+  "globalVariables": {
+    "TEST": "Test Value"
+  },
+  "modes": {
+    "window": {
+      "title": "VueAndNeutralino",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 200,
+      "fullScreen": false,
+      "alwaysOnTop": false,
+      "icon": "/dist/images/appIcon.png",
+      "enableInspector": true,
+      "borderless": false,
+      "maximize": false,
+      "hidden": false,
+      "resizable": true,
+      "exitProcessOnClose": false
+    },
+    "browser": {
+      "globalVariables": {
+        "TEST": "Test value browser"
+      },
+      "nativeBlockList": [
+        "filesystem.*"
+      ]
+    },
+    "cloud": {
+      "url": "/dist/#cloud",
+      "nativeAllowList": [
+        "app.*"
+      ]
+    }
+  },
+  "cli": {
+    "binaryName": "bin",
+    "resourcesPath": "/dist/",
+    "clientLibrary": "/src/static/scripts/neutralino.js",
+    "binaryVersion": "3.0.0",
+    "clientVersion": "2.0.0"
+  }
+}

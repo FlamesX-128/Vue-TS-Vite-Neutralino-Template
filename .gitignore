@@ -1,0 +1,24 @@
+# Developer tools' files
+/node_modules
+
+.lite_workspace.lua
+.vscode
+
+
+# Binaries and builds
+/bin
+/dist
+/dist-ssr
+/resources
+
+
+# Neutralinojs client (minified)
+neutralino.js
+
+
+# Neutralinojs related files
+.storage
+.DS_Store
+
+*.log
+*.local
