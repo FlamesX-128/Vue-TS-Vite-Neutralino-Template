@@ -1,6 +1,6 @@
 # **Vue 3 + Typescript + Vite + Neutralino**
+A template with Vue 3, TypeScript, Vite and Neutralinojs!
 
-This template should help get you started developing with Vue 3, Typescript and Neutralino in Vite.
 
 ## **Starting**
 Execute the following commands:
@@ -14,4 +14,5 @@ NPM: ```$ npm i```
 ### **Distribution**
 Execute the following commands
 
-```$ yarn build```
+Yarn: ```$ yarn build```
+NPM: ```$ npm run build```
